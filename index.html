@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Sheet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="sheet">
+        <div class="top">
+            <div><b>Sr. No.</b> <span>720734431</span></div>
+            <div class="logo" style="height: 130px; width: 140px;">
+                <img src="image/logo.jpeg" alt="">
+            </div>
+            <div class="qr">
+                <img src="image/QR.png" alt="">
+            </div>
+        </div>
+
+        <div class="title">
+            <h3>Associated with Technical and Paramedical Education Council</h3>
+            <h3>An Autonomous Institution Recognized by Goverment of India</h3>
+            <h1>Annual Statement of Marks</h1>
+        </div>
+
+        <div class="table1">
+            <table class="t1">
+                <tr>
+                    <td colspan="2">Name of the Candidate <br><br> MUKESH G</td>
+                    <td>Course name with Code <br> Diploma in Fire & Safety Management <br> DFS012</td>
+                </tr>
+                <tr>
+                    <td>Reg.No. <br><br>720721115031</td>
+                    <td>Enrollment No. <br><br>455780007</td>
+                    <td>Authorised Training Center Name with Code <br>HINDUSTHAN COLLEGE <br>21HICET2024</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table2">
+            <table class="t2">
+                <tr>
+                    <td rowspan="2">Subject Code</td>
+                    <td rowspan="2">Subject Name</td>
+                    <td rowspan="2">Max.Marks</td>
+                    <td colspan="3" rowspan="1">Marks Obtained In Figures</td>
+                    <td rowspan="2">Pass/Fail</td>
+                </tr>
+                <tr>
+                    <td>Theory</td>
+                    <td>Practical</td>
+                    <td>Total</td>
+                </tr>
+                <tr>
+                    <td>DFS012-101</td>
+                    <td>Fire Science and technology</td>
+                    <td>100</td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="theory1">
+                    </td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="pra1">
+                    </td>
+                    <td class="inputcell" id="total1">
+                        <!-- <input type="number" oninput="Total()" class="inputcell" id="total1"> -->
+                    </td>
+                    <td class="subtotal" id="status1"></td>
+                </tr>
+                <tr>
+                    <td>DFS012-102</td>
+                    <td>Fire Protection and Survey</td>
+                    <td>100</td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="theory2">
+                    </td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="pra2">
+                    </td>
+                    <td class="inputcell" id="total2">
+                        <!-- <input type="number" oninput="Total()" class="inputcell" id="total2"> -->
+                    </td>
+                    <td class="subtotal" id="status2"></td>
+                </tr>
+                <tr>
+                    <td>DFS012-103</td>
+                    <td>Fire Extinction and Control</td>
+                    <td>100</td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="theory3">
+                    </td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="pra3">
+                    </td>
+                    <td class="inputcell" id="total3">
+                        <!-- <input type="number" oninput="Total()" class="inputcell" id="total3"> -->
+                    </td>
+                    <td class="subtotal" id="status3"></td>
+                </tr>
+                <tr>
+                    <td>DFS012-104</td>
+                    <td>Industrial Safety Management</td>
+                    <td>100</td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="theory4">
+                    </td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="pra4">
+                    </td>
+                    <td class="inputcell" id="total4">
+                        <!-- <input type="number" oninput="Total()" class="inputcell" id="total4"> -->
+                    </td>
+                    <td class="subtotal" id="status4"></td>
+                </tr>
+                <tr>
+                    <td>DFS012-105</td>
+                    <td>Practical I</td>
+                    <td>100</td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="theory5">
+                    </td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="pra5">
+                    </td>
+                    <td class="inputcell" id="total5">
+                        <!-- <input type="number" oninput="Total()" class="inputcell" id="total5"> -->
+                    </td>
+                    <td class="subtotal" id="status5"></td>
+                </tr>
+                <tr>
+                    <td>DFS012-106</td>
+                    <td>Practical II</td>
+                    <td>100</td>
+                    <td class="inputcell">
+                        <input type="number" oninput="" class="inputcell" id="theory6">
+                    </td>
+                    <td class="inputcell">
+                        <input type="number" oninput="" class="inputcell" id="pra6">
+                    </td>
+                    <td class="inputcell" id="total6">
+                        <!-- <input type="number" oninput="" class="inputcell" id="total6"> -->
+                    </td>
+                    <td class="subtotal" id="status6"></td>
+                </tr>
+                <tr>
+                    <td>DFS012-107</td>
+                    <td>Practical III</td>
+                    <td>100</td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="theory7">
+                    </td>
+                    <td class="inputcell">
+                        <input type="number" oninput="Total()" class="inputcell" id="pra7">
+                    </td>
+                    <td class="inputcell" id="total7">
+                        
+                    </td>
+                    <td class="subtotal" id="status7"></td>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: start;">Grand Total: <span id="grandtotal">00</span><br>in Words: <span>00</span></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Month and Year of Examination</td>
+                    <td colspan="2">No. of Subject Offered</td>
+                    <td>Result</td>
+                    <td>Percentage</td>
+                    <td>Grade</td>
+                </tr>
+                <tr>
+                    <td colspan="2">May 2024</td>
+                    <td colspan="2">T3+P3=8</td>
+                    <td id="result">pass/fail</td>
+                    <td id="percentage">00.00%</td>
+                    <td id="grade">Grade</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <div>Date: (20/05/2024)</div>
+            <div>Subject marked with * indicates Excemption</div>
+            <div>(Signature  of Deputy <br>
+                Controller of Examination) <br>
+                Deputy Controller of Examination
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

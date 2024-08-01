@@ -1,0 +1,95 @@
+.sheet{
+    width: 650px;
+    height: fit-content;
+    padding: 10px;
+    border: 5px solid brown;
+    /* background-color: bisque; */
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+/* top section */
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top div{
+    height: 80px;
+    width: 100px;
+}
+.top span{
+    color: red;
+    font-weight: 900;
+}
+/* .logo{
+    height: 80px;
+    width: 100px;
+}
+.qr{
+    height: 50px;
+    width: 50px;
+} */
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.qr img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+/* title  */
+.title{
+    text-align: center;
+}
+.title h3, .title h1{
+    margin: 0;
+    padding: 0;
+}
+
+/* table1 */
+.t1{
+    width: 100%;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+.t1, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+.t2{
+    width: 100%;
+    background-color: bisque;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.inputcell{
+    width: 50px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
